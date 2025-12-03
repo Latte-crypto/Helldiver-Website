@@ -1,0 +1,72 @@
+.top{ }
+
+.main{ }
+
+.down{ }
+
+.all{ }
+
+.Überschrift {margin-top:100px ;
+			  margin-right:0px;
+			  text-align:center;
+			  font-size:50px;
+			  font:Roboto;
+								}
+								
+.background { background-image:"\\S164001\StudentsHome$\Mika.roser\Data\Desktop\informatik\meine Website\Super earth Logo.jpg";
+			 background-image: }
+			 
+/* Entferne Standard-Listensymbole und Abstände */
+ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+/* Navbar horizontal */
+.navbar { 
+	display: flex; 
+	background-color: #C6EF54; 
+	
+}
+
+/* Navbar-Items relative position für Dropdown */
+.navbar li { 
+	position: relative;
+	font-size:120%;
+	
+}
+
+/* Links */
+.navbar a {
+	display: block; 
+	padding: 14px 20px; 
+	color: black; 
+	text-decoration: none; 
+	font-size:100%; /*ändert schriftgröße von den Blöcken*/
+}
+
+/* Hover-Farbe */
+.navbar a:hover { 
+	background-color:yellow;
+}
+
+/* Dropdown-Menü */
+.dropdown { 
+	display: none; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	background-color: #0B6E38; 
+}
+
+/* Dropdown-Links schwarz */
+.dropdown a { 
+	color: white;
+		
+}
+
+/* Dropdown anzeigen bei Hover */
+.navbar li:hover .dropdown { 
+	display: block; 
+}
